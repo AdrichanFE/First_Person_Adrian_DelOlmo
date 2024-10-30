@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 70041978}
   - component: {fileID: 70041977}
   - component: {fileID: 70041976}
+  - component: {fileID: 70041979}
   m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
@@ -215,6 +216,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &70041979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70041975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 68dd0ddf7b602d94fbf5106ea479c7da, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +666,138 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2008856380}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &919132148315658702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6769054031687910376, guid: e8ab7c93d4bac97459e630793c787bef,
+    type: 3}
+  m_PrefabInstance: {fileID: 7971687942469140010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &919132148315658705
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148315658702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2.25
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.88547516, z: 0}
+--- !u!54 &919132148315658706
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148315658702}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &7971687942469140010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.419563
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 97.66671
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.74308
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.36250716
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.931981
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -137.491
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086770220131643910, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769054031687910376, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      propertyPath: m_Name
+      value: Orco
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6769054031687910376, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 919132148315658706}
+    - targetCorrespondingSourceObject: {fileID: 6769054031687910376, guid: e8ab7c93d4bac97459e630793c787bef,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 919132148315658705}
+  m_SourcePrefab: {fileID: 100100000, guid: e8ab7c93d4bac97459e630793c787bef, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -643,3 +807,4 @@ SceneRoots:
   - {fileID: 70041978}
   - {fileID: 1770864204}
   - {fileID: 2008856380}
+  - {fileID: 7971687942469140010}

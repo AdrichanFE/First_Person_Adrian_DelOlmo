@@ -288,7 +288,6 @@ GameObject:
   - component: {fileID: 841072773235986801}
   - component: {fileID: 2497981637035634107}
   - component: {fileID: 651890623422645016}
-  - component: {fileID: 556073770052550557}
   m_Layer: 0
   m_Name: Ojos
   m_TagString: Untagged
@@ -361,27 +360,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &556073770052550557
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4933699591167345493}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6316026105437054521
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +564,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMovimiento: 5
+  escalaGravedad: 0
+  radioDeteccion: 0
+  alturaSalto: 0
+  pies: {fileID: 0}
+  queEsSuelo:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!33 &2553921109328692658
 MeshFilter:
   m_ObjectHideFlags: 0
