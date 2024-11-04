@@ -12,6 +12,7 @@ public class FirstPerson : MonoBehaviour
     [SerializeField] private float escalaGravedad;
     [SerializeField] private float radioDeteccion;
     [SerializeField] private float alturaSalto;
+    [SerializeField] private float vida;
 
 
 
@@ -90,6 +91,17 @@ public class FirstPerson : MonoBehaviour
             movimientoVertical.y = Mathf.Sqrt(-2 * escalaGravedad * alturaSalto);
         }
     }
+
+    public void RecibirDanno(float dannoRecibido)
+    {
+        vida -= dannoRecibido;
+        if (vida <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 
     //Esto sirve para dibujar cualquier figura en la escena
     private void OnDrawGizmos()
