@@ -48,6 +48,7 @@ public class FirstPerson : MonoBehaviour
         z = Input.GetAxisRaw("Vertical");
         input = new Vector2(x, z).normalized;
 
+        //Con esto rotamos el cuerpo cuando rota la camara
         transform.eulerAngles = new Vector3(0, cam.transform.eulerAngles.y, 0);
 
         //Con sqrMagnitude es mas optimo que magnitude.

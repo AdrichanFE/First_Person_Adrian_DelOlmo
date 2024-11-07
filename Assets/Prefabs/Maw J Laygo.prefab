@@ -1272,7 +1272,7 @@ Transform:
   m_GameObject: {fileID: 5143185682773640968}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.93197936, z: -0, w: 0.36251134}
-  m_LocalPosition: {x: -0.947, y: 1.08, z: 1.166}
+  m_LocalPosition: {x: 0.07, y: 1.08, z: 1.67}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1704,8 +1704,6 @@ GameObject:
   - component: {fileID: 5086770220131643910}
   - component: {fileID: 1185099416722079827}
   - component: {fileID: 5464735155823186610}
-  - component: {fileID: 1037029959487190561}
-  - component: {fileID: 3081902380299855660}
   - component: {fileID: 5644752437964688762}
   m_Layer: 0
   m_Name: Maw J Laygo
@@ -1744,6 +1742,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53b651fcbd5b724e8ce1872e615a583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radioAtaque: 0.5
+  queEsDanhable:
+    serializedVersion: 2
+    m_Bits: 64
+  atacckpoint: {fileID: 8718232637110254966}
+  dannoEnemigo: 25
+  vida: 100
 --- !u!195 &5464735155823186610
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1766,56 +1771,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &1037029959487190561
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6769054031687910376}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!136 &3081902380299855660
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6769054031687910376}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2.25
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.88547516, z: 0}
 --- !u!95 &5644752437964688762
 Animator:
   serializedVersion: 5
