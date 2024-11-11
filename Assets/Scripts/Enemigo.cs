@@ -17,6 +17,9 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private float dannoEnemigo;
     [SerializeField] private float vida;
     private bool dannoRealizado = false;
+    private Rigidbody[] huesos;
+
+    public float Vida { get => vida; set => vida = value; }
 
 
     // Start is called before the first frame update
@@ -24,8 +27,11 @@ public class Enemigo : MonoBehaviour
     {
         agent=GetComponent<NavMeshAgent>();
         anim=GetComponent<Animator>();
-
+        huesos=GetComponentsInChildren<Rigidbody>();
         player = GameObject.FindObjectOfType<FirstPerson>();
+
+        CambiarEstadoHuesos(true);
+
     }
 
     // Update is called once per frame
@@ -40,6 +46,7 @@ public class Enemigo : MonoBehaviour
         
     }
 
+
     private void DetectarJugador()
     {
          Collider[] collsDetectados= Physics.OverlapSphere(atacckpoint.position, radioAtaque, queEsDanhable);
@@ -53,6 +60,21 @@ public class Enemigo : MonoBehaviour
             dannoRealizado= true;
         }
 
+    }
+    public void Morir()
+    {
+        agent.enabled = false;
+        anim.enabled = false;
+        CambiarEstadoHuesos(false);
+        Destroy(gameObject, 10);
+    }
+
+    private void CambiarEstadoHuesos(bool estado)
+    {
+        for (int i = 0; i < huesos.Length; i++)
+        {
+            huesos[i].isKinematic = estado;
+        }
     }
 
     private void Perseguir()
@@ -87,12 +109,5 @@ public class Enemigo : MonoBehaviour
         ventanaAtaque = false;
     }
 
-    public void RecibirDannoPlayer(float dannoRecibido)
-    {
-        vida -= dannoRecibido;
-        if (vida <= 0)
-        {
-            Destroy(this.gameObject);
-        }
-    }
+   
 }

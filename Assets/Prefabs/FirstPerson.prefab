@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1777060591469424986}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.00000038623278, y: 0, z: -0.0000020972118}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -567,6 +567,7 @@ MonoBehaviour:
   escalaGravedad: 0
   radioDeteccion: 0
   alturaSalto: 0
+  vida: 0
   pies: {fileID: 0}
   queEsSuelo:
     serializedVersion: 2

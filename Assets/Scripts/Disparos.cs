@@ -23,7 +23,11 @@ public class Disparos : MonoBehaviour
             system.Play();
             if(Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, misDatos.distanciaAtaque))
             {
-                hit.transform.GetComponent<Enemigo>().RecibirDannoPlayer(misDatos.dannoAtaque);
+                if (hit.transform.CompareTag("ParteEnemigo"))
+                {
+                    hit.transform.GetComponent<ParteDeEnemigo>().RecibirDannoPlayer(misDatos.dannoAtaque);
+                }
+                
             }
         }
     }
