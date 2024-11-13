@@ -93,10 +93,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8366010407837754867}
   - component: {fileID: 4226482425182198149}
+  - component: {fileID: 3288618690405454160}
   - component: {fileID: 1817918756534750483}
+  - component: {fileID: 4630962847918361366}
   m_Layer: 0
   m_Name: AmmoBox
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5470870865531240574}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.613751, y: 99.25941, z: 8.881654}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
@@ -139,7 +141,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1401.93, y: 568.65, z: 814.01}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1817918756534750483
+--- !u!114 &3288618690405454160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,15 +150,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 5470870865531240574}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b19789a1a21894d8417df94e99170f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1817918756534750483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5470870865531240574}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 0, g: 0.9811321, b: 0.04822614, a: 1}
+  outlineWidth: 1.83
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!95 &4630962847918361366
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5470870865531240574}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15da8225c6f862841bfaa8ccea23897d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6198631793940549000
 GameObject:
   m_ObjectHideFlags: 0
