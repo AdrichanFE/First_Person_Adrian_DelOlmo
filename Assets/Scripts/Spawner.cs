@@ -21,13 +21,11 @@ public class Spawner : MonoBehaviour
 
     IEnumerator SpawnEnemigos()
     {
-        while (1 == 1)
+        while (true)
         {
-            Instantiate(enemigoPrefab, puntosSpawn[0].position, Quaternion.identity);
+            Instantiate(enemigoPrefab, puntosSpawn[Random.Range(0,puntosSpawn.Length)].position, Quaternion.identity);
             yield return new WaitForSeconds(4);
-            Instantiate(enemigoPrefab, puntosSpawn[1].position, Quaternion.identity);
-            yield return new WaitForSeconds(4);
-            Instantiate(enemigoPrefab, puntosSpawn[2].position, Quaternion.identity);
+           
 
         }
     }

@@ -68,6 +68,17 @@ public class FirstPerson : MonoBehaviour
        
     }
 
+    //Es como un colisionEnter pero para un characterController
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if(hit.gameObject.TryGetComponent(out ParteDeEnemigo cadaver))
+        {
+            Rigidbody rbEnemigo= hit.gameObject.GetComponent<Rigidbody>();
+            Vector3 direccionFuerza=hit.transform.position-gameObject.transform.position;
+            rbEnemigo.AddForce(direccionFuerza.normalized * 50, ForceMode.Impulse);
+        }
+    }
+
     void AplicarGravedad()
     {
         //Mi movimiento vertical en la y va aumentandose(+=) a cierta escala por segundo.
