@@ -68,7 +68,7 @@ public class WeaponHolder : MonoBehaviour
             //Desactivo el arma qeu actualmente llevo equipada
             armas[indiceArmaActual].SetActive(false);
             //Despues, cambio el indice
-            indiceArmaActual = 0;
+            indiceArmaActual = nuevoIndice;
             armas[indiceArmaActual].SetActive(true);
         }
 
