@@ -88,7 +88,16 @@ public class Enemigo : MonoBehaviour
 
             anim.SetBool("Attacking", true);
 
+            EnfocarPlayer();
+
         }
+    }
+
+    private void EnfocarPlayer()
+    {
+        Vector3 direccionAPlayer= (player.transform.position-transform.position).normalized;
+        direccionAPlayer.y = 0;
+        transform.rotation = Quaternion.LookRotation(direccionAPlayer);
     }
 
     //Evento de animacion
