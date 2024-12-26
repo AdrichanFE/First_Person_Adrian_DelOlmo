@@ -365,7 +365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &198737387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6127,7 +6127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 637099b6a3fbae641bb0c1093176f64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1.5
 --- !u!1001 &1147379445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11935,12 +11934,12 @@ SceneRoots:
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1457648672}
-  - {fileID: 36149740}
   - {fileID: 70041978}
   - {fileID: 1770864204}
   - {fileID: 1094662477}
   - {fileID: 2008856380}
+  - {fileID: 36149740}
+  - {fileID: 1457648672}
   - {fileID: 6627888388566335034}
   - {fileID: 198737388}
   - {fileID: 459298143}
