@@ -48,14 +48,14 @@ public class WeaponHolder : MonoBehaviour
         {
             CambioArma(2);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4))
-        {
-            CambioArma(3);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Keypad5))
-        {
-            CambioArma(4);
-        }
+        //if (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4))
+        //{
+        //    CambioArma(3);
+        //}
+        //if (Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Keypad5))
+        //{
+        //    CambioArma(4);
+        //}
     }
 
     private void CambioArma(int nuevoIndice)

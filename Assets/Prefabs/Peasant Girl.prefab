@@ -2298,7 +2298,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2386953648976284218}
-  - component: {fileID: 6402336289894677719}
   - component: {fileID: 7173777516007172853}
   m_Layer: 0
   m_Name: Peasant Girl
@@ -2324,29 +2323,6 @@ Transform:
   - {fileID: 5580494356127602947}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -54.052, z: 0}
---- !u!136 &6402336289894677719
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8852550814462436415}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.4455607
-  m_Height: 2.734024
-  m_Direction: 1
-  m_Center: {x: 0.036548376, y: 0.867012, z: -0.01789093}
 --- !u!95 &7173777516007172853
 Animator:
   serializedVersion: 5
