@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ParteEnemigo
   - Interactuable
+  - Pocion
+  - DetectorSpawner
   layers:
   - Default
   - TransparentFX

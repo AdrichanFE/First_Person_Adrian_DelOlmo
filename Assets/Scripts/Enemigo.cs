@@ -11,6 +11,7 @@ public class Enemigo : MonoBehaviour
     private FirstPerson player;
     private Animator anim;
     private bool ventanaAtaque=false;
+    [SerializeField] private GameObject pocionPrefab;
     [SerializeField] private float radioAtaque;
     [SerializeField] LayerMask queEsDanhable;
     [SerializeField] Transform atacckpoint;
@@ -66,7 +67,8 @@ public class Enemigo : MonoBehaviour
         agent.enabled = false;
         anim.enabled = false;
         CambiarEstadoHuesos(false);
-        Destroy(gameObject, 10);
+        Instantiate(pocionPrefab, this.gameObject.transform.position, Quaternion.identity);
+        Destroy(gameObject, 5);
     }
 
     private void CambiarEstadoHuesos(bool estado)

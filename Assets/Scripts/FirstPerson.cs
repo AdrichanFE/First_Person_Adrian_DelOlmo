@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class FirstPerson : MonoBehaviour
@@ -12,7 +14,10 @@ public class FirstPerson : MonoBehaviour
     [SerializeField] private float escalaGravedad;
     [SerializeField] private float radioDeteccion;
     [SerializeField] private float alturaSalto;
-    [SerializeField] private float vida;
+    [SerializeField] private float vidaActual;
+    [SerializeField] private float vidaMaxima;
+    [SerializeField] private int recuperacion;
+    
 
 
 
@@ -20,6 +25,7 @@ public class FirstPerson : MonoBehaviour
     [Header("References")]
     [SerializeField] private Transform pies;
     [SerializeField] LayerMask queEsSuelo;
+    [SerializeField] private Image barraVida;
 
 
 
@@ -44,6 +50,7 @@ public class FirstPerson : MonoBehaviour
     
     void Update()
     {
+        barraVida.fillAmount = vidaActual / vidaMaxima;
         x = Input.GetAxisRaw("Horizontal");
         z = Input.GetAxisRaw("Vertical");
         input = new Vector2(x, z).normalized;
@@ -77,6 +84,21 @@ public class FirstPerson : MonoBehaviour
             Vector3 direccionFuerza=hit.transform.position-gameObject.transform.position;
             rbEnemigo.AddForce(direccionFuerza.normalized * 50, ForceMode.Impulse);
         }
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Pocion"))
+        {
+            vidaActual += recuperacion;
+            if (vidaActual >= vidaMaxima)
+            {
+                vidaActual = vidaMaxima;
+            }
+            Destroy(other.gameObject);
+        }
+        
     }
 
     void AplicarGravedad()
@@ -106,12 +128,14 @@ public class FirstPerson : MonoBehaviour
 
     public void RecibirDanno(float dannoRecibido)
     {
-        vida -= dannoRecibido;
-        if (vida <= 0)
+        vidaActual -= dannoRecibido;
+        if (vidaActual <= 0)
         {
             Destroy(gameObject);
         }
     }
+
+   
 
 
 

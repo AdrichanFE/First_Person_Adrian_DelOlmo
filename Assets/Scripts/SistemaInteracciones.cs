@@ -30,6 +30,22 @@ public class SistemaInteracciones : MonoBehaviour
                     scriptCaja.AbrirCaja();
                 }
             }
+            if(hit.transform.TryGetComponent(out Door puerta))
+            {
+                interactuableActual = hit.transform;
+                interactuableActual.GetComponent<Outline>().enabled = true;
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                   puerta.AbrirPuerta();
+                }
+                else if (Input.GetKeyDown(KeyCode.R))
+                {
+                    puerta.CerrarPuerta();
+                } 
+               
+
+            }
             
         }
         else if (interactuableActual)
