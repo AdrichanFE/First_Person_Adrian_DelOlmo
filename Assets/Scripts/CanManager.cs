@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CanManager : MonoBehaviour
 {
     [SerializeField] GameObject menuPausa;
+    [SerializeField] GameObject menuGameOver;
     public void RegresarALaPartida()
     {
         Time.timeScale = 1.0f;

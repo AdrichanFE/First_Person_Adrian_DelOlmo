@@ -67,6 +67,7 @@ public class Enemigo : MonoBehaviour
         agent.enabled = false;
         anim.enabled = false;
         CambiarEstadoHuesos(false);
+
         Instantiate(pocionPrefab, this.gameObject.transform.position, Quaternion.identity);
         Destroy(gameObject, 5);
     }

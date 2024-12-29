@@ -26,8 +26,9 @@ public class FirstPerson : MonoBehaviour
     [SerializeField] private Transform pies;
     [SerializeField] LayerMask queEsSuelo;
     [SerializeField] private Image barraVida;
-    [SerializeField] GameObject menuPausa;
-    [SerializeField] GameObject weaponHolder;
+    [SerializeField] private GameObject menuPausa;
+    [SerializeField] private GameObject weaponHolder;
+    [SerializeField] private GameObject menuGameOver;
 
 
 
@@ -157,6 +158,8 @@ public class FirstPerson : MonoBehaviour
         vidaActual -= dannoRecibido;
         if (vidaActual <= 0)
         {
+            Time.timeScale = 0f;
+            menuGameOver.SetActive(true);
             Destroy(gameObject);
         }
     }

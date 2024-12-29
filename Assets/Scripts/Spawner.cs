@@ -25,8 +25,6 @@ public class Spawner : MonoBehaviour
         {
             Instantiate(enemigoPrefab, puntosSpawn[Random.Range(0,puntosSpawn.Length)].position, Quaternion.identity);
             yield return new WaitForSeconds(4);
-           
-
         }
     }
 }
