@@ -26,6 +26,8 @@ public class FirstPerson : MonoBehaviour
     [SerializeField] private Transform pies;
     [SerializeField] LayerMask queEsSuelo;
     [SerializeField] private Image barraVida;
+    [SerializeField] GameObject menuPausa;
+    [SerializeField] GameObject weaponHolder;
 
 
 
@@ -39,11 +41,31 @@ public class FirstPerson : MonoBehaviour
     Vector3 movimientoVertical;
     Vector2 input;
 
-    
+
+    private void FixedUpdate()//Ciclo de fisicas, es fijo. Se reproduce 0.02 segundos.
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0f;
+            weaponHolder.SetActive(false);
+            menuPausa.SetActive(true);
+            Movimiento();
+            
+        }
+        else
+        {
+            weaponHolder.SetActive(true);
+            Movimiento();
+        }
+        
+        
+
+    }
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         cam = Camera.main;
     }
 
@@ -55,21 +77,6 @@ public class FirstPerson : MonoBehaviour
         z = Input.GetAxisRaw("Vertical");
         input = new Vector2(x, z).normalized;
 
-        //Con esto rotamos el cuerpo cuando rota la camara
-        transform.eulerAngles = new Vector3(0, cam.transform.eulerAngles.y, 0);
-
-        //Con sqrMagnitude es mas optimo que magnitude.
-        if (input.sqrMagnitude>0)
-        {
-            //Se calcula el angulo al que tengo que rotarme en funcion de los inputs y orientacion de camara.
-            anguloRotacion = Mathf.Atan2(input.x, input.y) * Mathf.Rad2Deg+cam.transform.eulerAngles.y;//Con esto te tranforma de radianes a grados
-            transform.eulerAngles = new Vector3(0, anguloRotacion, 0);//Con esto rota el personaje
-
-            movimiento = Quaternion.Euler(0, anguloRotacion, 0) * Vector3.forward;//Para avanzar de frente hacia donde estas mirando, alineando mi frontal hcia donde apunte la camara.
-
-            controller.Move(movimiento * velocidadMovimiento * Time.deltaTime);//Con esto se mueve el personaje
-
-        }
         DeteccionSuelo();
         AplicarGravedad();
        
@@ -99,6 +106,25 @@ public class FirstPerson : MonoBehaviour
             Destroy(other.gameObject);
         }
         
+    }
+
+    void Movimiento()
+    {
+        //Con esto rotamos el cuerpo cuando rota la camara
+        transform.eulerAngles = new Vector3(0, cam.transform.eulerAngles.y, 0);
+
+        //Con sqrMagnitude es mas optimo que magnitude.
+        if (input.sqrMagnitude > 0)
+        {
+            //Se calcula el angulo al que tengo que rotarme en funcion de los inputs y orientacion de camara.
+            anguloRotacion = Mathf.Atan2(input.x, input.y) * Mathf.Rad2Deg + cam.transform.eulerAngles.y;//Con esto te tranforma de radianes a grados
+            transform.eulerAngles = new Vector3(0, anguloRotacion, 0);//Con esto rota el personaje
+
+            movimiento = Quaternion.Euler(0, anguloRotacion, 0) * Vector3.forward;//Para avanzar de frente hacia donde estas mirando, alineando mi frontal hcia donde apunte la camara.
+
+            controller.Move(movimiento * velocidadMovimiento * Time.deltaTime);//Con esto se mueve el personaje
+
+        }
     }
 
     void AplicarGravedad()

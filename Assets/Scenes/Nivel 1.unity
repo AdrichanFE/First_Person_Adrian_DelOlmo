@@ -194,6 +194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 36149740}
+  - component: {fileID: 36149741}
   - component: {fileID: 36149739}
   - component: {fileID: 36149738}
   - component: {fileID: 36149737}
@@ -289,6 +290,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &36149741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36149736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b810d9da88e5ab04ebef2a4c4f866823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuPausa: {fileID: 1775768101}
 --- !u!1001 &41660573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8821,13 +8835,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 36149741}
+        m_TargetAssemblyTypeName: CanManager, Assembly-CSharp
+        m_MethodName: RegresoMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9141,7 +9155,7 @@ GameObject:
   - component: {fileID: 1555566848}
   - component: {fileID: 1555566847}
   m_Layer: 5
-  m_Name: BackGround
+  m_Name: BackGroundVida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14317,13 +14331,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 36149741}
+        m_TargetAssemblyTypeName: CanManager, Assembly-CSharp
+        m_MethodName: RegresarALaPartida
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14955,7 +14969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1775768102
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16680,6 +16694,11 @@ PrefabInstance:
       objectReference: {fileID: 731360417}
     - target: {fileID: 717694155658871535, guid: ef2bbbe800b5ae84382521998ec7c438,
         type: 3}
+      propertyPath: menuPausa
+      value: 
+      objectReference: {fileID: 1775768101}
+    - target: {fileID: 717694155658871535, guid: ef2bbbe800b5ae84382521998ec7c438,
+        type: 3}
       propertyPath: spawneador
       value: 
       objectReference: {fileID: 459298141}
@@ -16776,7 +16795,7 @@ PrefabInstance:
     - target: {fileID: 5144440320434639572, guid: ef2bbbe800b5ae84382521998ec7c438,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 344.36
+      value: 34.3
       objectReference: {fileID: 0}
     - target: {fileID: 5144440320434639572, guid: ef2bbbe800b5ae84382521998ec7c438,
         type: 3}
@@ -16786,7 +16805,7 @@ PrefabInstance:
     - target: {fileID: 5144440320434639572, guid: ef2bbbe800b5ae84382521998ec7c438,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60.94
+      value: 117.8
       objectReference: {fileID: 0}
     - target: {fileID: 5144440320434639572, guid: ef2bbbe800b5ae84382521998ec7c438,
         type: 3}
@@ -17035,13 +17054,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 36149741}
+        m_TargetAssemblyTypeName: CanManager, Assembly-CSharp
+        m_MethodName: TerminarJuego
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
