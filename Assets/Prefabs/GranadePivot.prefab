@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 689784763977013953}
+  - component: {fileID: 485447909474264624}
   - component: {fileID: 8199810731286070043}
   - component: {fileID: 3306638113188939805}
-  - component: {fileID: 485447909474264624}
   m_Layer: 0
   m_Name: GranadePivot
   m_TagString: Untagged
@@ -35,6 +35,28 @@ Transform:
   - {fileID: 4780450570130184324}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &485447909474264624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3428480807547019792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4373b3464ac696478b1a4931cd8f1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuerzaImpulso: 10
+  tiempoVida: 2
+  radioExplosion: 3
+  queEsExplotable:
+    serializedVersion: 2
+    m_Bits: 128
+  explosionPrefab: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664,
+    type: 3}
+  fuerzaExplosion: 15
+  rebote: 50
 --- !u!54 &8199810731286070043
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -83,28 +105,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.106731415
   m_Center: {x: 0, y: 0.0069084167, z: 0}
---- !u!114 &485447909474264624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3428480807547019792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4373b3464ac696478b1a4931cd8f1a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fuerzaImpulso: 10
-  tiempoVida: 2
-  radioExplosion: 3
-  queEsExplotable:
-    serializedVersion: 2
-    m_Bits: 128
-  explosionPrefab: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664,
-    type: 3}
-  fuerzaExplosion: 15
-  rebote: 50
 --- !u!1 &6165622124712388827
 GameObject:
   m_ObjectHideFlags: 0

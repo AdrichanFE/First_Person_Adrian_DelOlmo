@@ -6,7 +6,7 @@ public class WeaponHolder : MonoBehaviour
 {
     [SerializeField] private GameObject[] armas;
 
-    int indiceArmaActual=0;
+    private int indiceArmaActual=0;
     // Start is called before the first frame update
     void Start()
     {
