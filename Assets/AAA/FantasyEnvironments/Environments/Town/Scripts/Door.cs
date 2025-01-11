@@ -6,7 +6,8 @@ public class Door : MonoBehaviour {
 	private Animator anim;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		anim = GetComponent<Animator> ();
 	}
 
