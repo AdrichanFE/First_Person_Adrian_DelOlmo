@@ -7,6 +7,7 @@ public class CanManager : MonoBehaviour
 {
     [SerializeField] GameObject menuPausa;
     [SerializeField] GameObject menuGameOver;
+    [SerializeField] GameObject menuVictoria;
     public void RegresarALaPartida()
     {
         Time.timeScale = 1.0f;

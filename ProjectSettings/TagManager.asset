@@ -8,6 +8,7 @@ TagManager:
   - Interactuable
   - Pocion
   - DetectorSpawner
+  - Loot
   layers:
   - Default
   - TransparentFX

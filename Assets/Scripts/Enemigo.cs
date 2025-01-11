@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -11,7 +10,7 @@ public class Enemigo : MonoBehaviour
     private FirstPerson player;
     private Animator anim;
     private bool ventanaAtaque=false;
-    [SerializeField] private GameObject pocionPrefab;
+    [SerializeField] private GameObject[] items;
     [SerializeField] private float radioAtaque;
     [SerializeField] LayerMask queEsDanhable;
     [SerializeField] Transform atacckpoint;
@@ -67,8 +66,8 @@ public class Enemigo : MonoBehaviour
         agent.enabled = false;
         anim.enabled = false;
         CambiarEstadoHuesos(false);
-
-        Instantiate(pocionPrefab, this.gameObject.transform.position, Quaternion.identity);
+        GameObject randomItem = items[Random.Range(0, items.Length)];
+        Instantiate(randomItem, this.gameObject.transform.position, Quaternion.identity);
         Destroy(gameObject, 5);
     }
 

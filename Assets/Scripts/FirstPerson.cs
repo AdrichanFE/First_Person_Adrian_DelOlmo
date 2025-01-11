@@ -16,7 +16,10 @@ public class FirstPerson : MonoBehaviour
     [SerializeField] private float alturaSalto;
     [SerializeField] private float vidaActual;
     [SerializeField] private float vidaMaxima;
+    [SerializeField] private float lootActual;
+    [SerializeField] private float lootMaximo;
     [SerializeField] private int recuperacion;
+    [SerializeField] private int puntuacion;
     
 
 
@@ -26,9 +29,11 @@ public class FirstPerson : MonoBehaviour
     [SerializeField] private Transform pies;
     [SerializeField] LayerMask queEsSuelo;
     [SerializeField] private Image barraVida;
+    [SerializeField] private Image BarraLoot;
     [SerializeField] private GameObject menuPausa;
     [SerializeField] private GameObject weaponHolder;
     [SerializeField] private GameObject menuGameOver;
+    [SerializeField] private GameObject menuVictoria;
 
 
 
@@ -50,12 +55,14 @@ public class FirstPerson : MonoBehaviour
             Time.timeScale = 0f;
             weaponHolder.SetActive(false);
             menuPausa.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
             Movimiento();
             
         }
         else
         {
             weaponHolder.SetActive(true);
+            Cursor.lockState = CursorLockMode.Locked;
             Movimiento();
         }
         
@@ -66,7 +73,7 @@ public class FirstPerson : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
         cam = Camera.main;
     }
 
@@ -74,6 +81,7 @@ public class FirstPerson : MonoBehaviour
     void Update()
     {
         barraVida.fillAmount = vidaActual / vidaMaxima;
+        BarraLoot.fillAmount = lootActual / lootMaximo;
         x = Input.GetAxisRaw("Horizontal");
         z = Input.GetAxisRaw("Vertical");
         input = new Vector2(x, z).normalized;
@@ -105,6 +113,18 @@ public class FirstPerson : MonoBehaviour
                 vidaActual = vidaMaxima;
             }
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("Loot"))
+        {
+            lootActual += puntuacion;
+            if (lootActual >= lootMaximo)
+            {
+                Time.timeScale = 0f;
+                menuVictoria.SetActive(true);
+                weaponHolder.SetActive(false);
+                Cursor.lockState = CursorLockMode.None;
+                Movimiento();
+            }
         }
         
     }

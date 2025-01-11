@@ -2730,8 +2730,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53b651fcbd5b724e8ce1872e615a583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pocionPrefab: {fileID: 1722016513323910597, guid: 8fc479871b5b42c478492315b125f2ef,
-    type: 3}
+  items:
+  - {fileID: 1561549327551775107, guid: df8dad89e7ab0f64db64e78a1d01056c, type: 3}
+  - {fileID: 4153310945197552887, guid: e52d1ae86bc6eb84dbb89b22d26deca5, type: 3}
+  - {fileID: 1722016513323910597, guid: 8fc479871b5b42c478492315b125f2ef, type: 3}
   radioAtaque: 0.5
   queEsDanhable:
     serializedVersion: 2
