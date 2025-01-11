@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33320004748883204}
   - component: {fileID: 23194787247456340}
   - component: {fileID: 65761457462732522}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_doorR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 33051327854583486}
   - component: {fileID: 23673512315280286}
   - component: {fileID: 64446200124046860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 4534606581544296}
   - component: {fileID: 33464598173447514}
   - component: {fileID: 23997007885673912}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_interior_lamp (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4412990805418852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 33583571146705064}
   - component: {fileID: 23987470845899878}
   - component: {fileID: 64679082165049822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tavern_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 33130182814066408}
   - component: {fileID: 23801430777871194}
   - component: {fileID: 64939398304006624}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_table_round (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 4063531880599108}
   - component: {fileID: 198206825161357280}
   - component: {fileID: 199657172945918440}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5396,7 +5396,7 @@ GameObject:
   - component: {fileID: 4051166206743438}
   - component: {fileID: 33807707514276708}
   - component: {fileID: 23634129128189424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_plate (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5479,7 +5479,7 @@ GameObject:
   - component: {fileID: 4373358480724526}
   - component: {fileID: 33751210723491960}
   - component: {fileID: 23069409798464922}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_plate_small (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5561,7 +5561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4446057377279770}
   - component: {fileID: 205900462483525802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5633,7 +5633,7 @@ GameObject:
   - component: {fileID: 33097426615801398}
   - component: {fileID: 23293586373348886}
   - component: {fileID: 64905703584615328}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_basket_small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5739,7 +5739,7 @@ GameObject:
   - component: {fileID: 33226603682430516}
   - component: {fileID: 23902136757802046}
   - component: {fileID: 64683778990441860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5845,7 +5845,7 @@ GameObject:
   - component: {fileID: 33296456754082494}
   - component: {fileID: 23593598726643936}
   - component: {fileID: 65186672020494024}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_bag_carrot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5950,7 +5950,7 @@ GameObject:
   - component: {fileID: 33027024098735128}
   - component: {fileID: 23379069665012630}
   - component: {fileID: 64101146323359190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_table_round (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6057,7 +6057,7 @@ GameObject:
   - component: {fileID: 33583199855983410}
   - component: {fileID: 23485339024069782}
   - component: {fileID: 65697493146055138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_table_small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6162,7 +6162,7 @@ GameObject:
   - component: {fileID: 33181665689376808}
   - component: {fileID: 23268845788139010}
   - component: {fileID: 65112712077879284}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_cupboard2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6273,7 +6273,7 @@ GameObject:
   - component: {fileID: 4169178241648538}
   - component: {fileID: 33813285161138750}
   - component: {fileID: 23538635341264604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_elixir1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6356,7 +6356,7 @@ GameObject:
   - component: {fileID: 4944396570551920}
   - component: {fileID: 198216873779538714}
   - component: {fileID: 199670848096792488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11200,7 +11200,7 @@ GameObject:
   - component: {fileID: 33020235234372758}
   - component: {fileID: 23770803546978812}
   - component: {fileID: 65455098899212246}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11216,7 +11216,7 @@ Transform:
   m_GameObject: {fileID: 1226555064763984}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4639893, y: -0.4693737, z: -4.82399}
+  m_LocalPosition: {x: -3.464, y: -0.552, z: -4.658}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11304,7 +11304,7 @@ GameObject:
   - component: {fileID: 4960364245874942}
   - component: {fileID: 198294414729102622}
   - component: {fileID: 199009197791819176}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16147,7 +16147,7 @@ GameObject:
   - component: {fileID: 4014197550502822}
   - component: {fileID: 198748984070450980}
   - component: {fileID: 199547501513172830}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20990,7 +20990,7 @@ GameObject:
   - component: {fileID: 4930006283943990}
   - component: {fileID: 33172913363784464}
   - component: {fileID: 23313870725931416}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21074,7 +21074,7 @@ GameObject:
   - component: {fileID: 4225740039404000}
   - component: {fileID: 33028439569723488}
   - component: {fileID: 23348491895878040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_cup1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21158,7 +21158,7 @@ GameObject:
   - component: {fileID: 33737367161840736}
   - component: {fileID: 23227615383280328}
   - component: {fileID: 136293945568037396}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_jug_small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21264,7 +21264,7 @@ GameObject:
   - component: {fileID: 4707612603080432}
   - component: {fileID: 198048242275509084}
   - component: {fileID: 199339908018946180}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26107,7 +26107,7 @@ GameObject:
   - component: {fileID: 4646967524483118}
   - component: {fileID: 33820051306477398}
   - component: {fileID: 23010180574089566}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_interior_curtain (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26190,7 +26190,7 @@ GameObject:
   - component: {fileID: 4488122397133532}
   - component: {fileID: 33692181341366238}
   - component: {fileID: 23856548116926350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bread_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26273,7 +26273,7 @@ GameObject:
   - component: {fileID: 4464253622786950}
   - component: {fileID: 33684795091793242}
   - component: {fileID: 23501250769222080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_book1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26357,7 +26357,7 @@ GameObject:
   - component: {fileID: 33993718948992066}
   - component: {fileID: 23801918711577220}
   - component: {fileID: 65526335338548920}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_bed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26461,7 +26461,7 @@ GameObject:
   - component: {fileID: 4047744514315240}
   - component: {fileID: 198123206583728126}
   - component: {fileID: 199980851646223774}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31304,7 +31304,7 @@ GameObject:
   - component: {fileID: 4499326431172536}
   - component: {fileID: 33650120589537292}
   - component: {fileID: 23940786990992612}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_cup1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31387,7 +31387,7 @@ GameObject:
   - component: {fileID: 4227976882334692}
   - component: {fileID: 33181088727223968}
   - component: {fileID: 23907568389027520}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_elixir2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31470,7 +31470,7 @@ GameObject:
   - component: {fileID: 4176733535462460}
   - component: {fileID: 33618705432035104}
   - component: {fileID: 23700445533221642}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_cup1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31553,7 +31553,7 @@ GameObject:
   - component: {fileID: 4239434503786614}
   - component: {fileID: 198633414851621610}
   - component: {fileID: 199565993847875538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36396,7 +36396,7 @@ GameObject:
   - component: {fileID: 4448458585503668}
   - component: {fileID: 33567477368789082}
   - component: {fileID: 23916643745494010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_scrolls (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36480,7 +36480,7 @@ GameObject:
   - component: {fileID: 33500360974490262}
   - component: {fileID: 23593237458953044}
   - component: {fileID: 65702735849299372}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36585,7 +36585,7 @@ GameObject:
   - component: {fileID: 33330594546070152}
   - component: {fileID: 23458049947728032}
   - component: {fileID: 65154798166882392}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_doorL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36690,7 +36690,7 @@ GameObject:
   - component: {fileID: 33830890320655884}
   - component: {fileID: 23778311756808910}
   - component: {fileID: 65564866423036384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_cupboard2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36802,7 +36802,7 @@ GameObject:
   - component: {fileID: 33268929802298188}
   - component: {fileID: 23253680207853420}
   - component: {fileID: 65114339756934140}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_tablecloth (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36906,7 +36906,7 @@ GameObject:
   - component: {fileID: 4376726334770586}
   - component: {fileID: 33495398233285368}
   - component: {fileID: 23737463364995082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_scroll (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36989,7 +36989,7 @@ GameObject:
   - component: {fileID: 4746677993533180}
   - component: {fileID: 33487046402311362}
   - component: {fileID: 23216374589825158}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37074,7 +37074,7 @@ GameObject:
   - component: {fileID: 33491502131840246}
   - component: {fileID: 23752470195496984}
   - component: {fileID: 65933512968854914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_table_small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37178,7 +37178,7 @@ GameObject:
   - component: {fileID: 4589677597414952}
   - component: {fileID: 198411233041829438}
   - component: {fileID: 199253883634822640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42019,7 +42019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4020387075358236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: room1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42060,7 +42060,7 @@ GameObject:
   - component: {fileID: 4655403376134330}
   - component: {fileID: 33694021192848426}
   - component: {fileID: 23201148935179232}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_plate_small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42144,7 +42144,7 @@ GameObject:
   - component: {fileID: 33382867893668806}
   - component: {fileID: 23640392349437756}
   - component: {fileID: 65527236797505644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_cupboard3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42248,7 +42248,7 @@ GameObject:
   - component: {fileID: 4278928037869680}
   - component: {fileID: 198434974254847968}
   - component: {fileID: 199001106393460920}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47092,7 +47092,7 @@ GameObject:
   - component: {fileID: 33711560953295850}
   - component: {fileID: 23267290809036416}
   - component: {fileID: 64905913943553792}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel_fish (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47198,7 +47198,7 @@ GameObject:
   - component: {fileID: 33853763113472668}
   - component: {fileID: 23144739430426888}
   - component: {fileID: 64656820507748422}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47303,7 +47303,7 @@ GameObject:
   - component: {fileID: 4568546755990742}
   - component: {fileID: 33655330001121570}
   - component: {fileID: 23685606270793680}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_interior_curtain (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47386,7 +47386,7 @@ GameObject:
   - component: {fileID: 4089126778717722}
   - component: {fileID: 33732993985311492}
   - component: {fileID: 23865893823837762}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_candlestick1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47470,7 +47470,7 @@ GameObject:
   - component: {fileID: 4135468893869402}
   - component: {fileID: 33213857767563554}
   - component: {fileID: 23336716827373484}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_book1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47554,7 +47554,7 @@ GameObject:
   - component: {fileID: 33117551921626670}
   - component: {fileID: 23590101841117208}
   - component: {fileID: 65759199799707778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47658,7 +47658,7 @@ GameObject:
   - component: {fileID: 4618086242512644}
   - component: {fileID: 33117817991191012}
   - component: {fileID: 23161367527365488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_knife (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47741,7 +47741,7 @@ GameObject:
   - component: {fileID: 4812826556251426}
   - component: {fileID: 33684363535622636}
   - component: {fileID: 23252441602370214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_plate_small (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47824,7 +47824,7 @@ GameObject:
   - component: {fileID: 4160443168287670}
   - component: {fileID: 33259259702296852}
   - component: {fileID: 23795172922775272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_book2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47907,7 +47907,7 @@ GameObject:
   - component: {fileID: 4963409122807320}
   - component: {fileID: 33960703946780606}
   - component: {fileID: 23693612308360922}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_book3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47991,7 +47991,7 @@ GameObject:
   - component: {fileID: 33940333102971090}
   - component: {fileID: 23044246171240702}
   - component: {fileID: 65010852326335052}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48095,7 +48095,7 @@ GameObject:
   - component: {fileID: 4211917163270806}
   - component: {fileID: 198609840005557790}
   - component: {fileID: 199917803713604756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52939,7 +52939,7 @@ GameObject:
   - component: {fileID: 33925846866185030}
   - component: {fileID: 23588373719307734}
   - component: {fileID: 64250452246605126}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_basket (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53044,7 +53044,7 @@ GameObject:
   - component: {fileID: 4308723444807696}
   - component: {fileID: 33740135829665552}
   - component: {fileID: 23807768263253532}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_elixir1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53128,7 +53128,7 @@ GameObject:
   - component: {fileID: 33745463611843150}
   - component: {fileID: 23919507999750662}
   - component: {fileID: 64011305961544264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53233,7 +53233,7 @@ GameObject:
   - component: {fileID: 4697737473137532}
   - component: {fileID: 198485051884291744}
   - component: {fileID: 199711896085290126}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58076,7 +58076,7 @@ GameObject:
   - component: {fileID: 4059471104636688}
   - component: {fileID: 33242568180127524}
   - component: {fileID: 23658693146618524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bottle3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58159,7 +58159,7 @@ GameObject:
   - component: {fileID: 4331031943666916}
   - component: {fileID: 33857326012964744}
   - component: {fileID: 23526423846916200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_cup1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58242,7 +58242,7 @@ GameObject:
   - component: {fileID: 4082995302858910}
   - component: {fileID: 33061250441301422}
   - component: {fileID: 23358536225342284}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_scrolls (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58326,7 +58326,7 @@ GameObject:
   - component: {fileID: 33472667660354188}
   - component: {fileID: 23433727959453422}
   - component: {fileID: 65672420954634828}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58430,7 +58430,7 @@ GameObject:
   - component: {fileID: 4079630184387074}
   - component: {fileID: 33069790211931746}
   - component: {fileID: 23127651020454722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bottle4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58511,7 +58511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4286606316964664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TavernStorage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58594,7 +58594,7 @@ GameObject:
   - component: {fileID: 33842303028601868}
   - component: {fileID: 23621806238950764}
   - component: {fileID: 65920626536949010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_tablecloth_small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58698,7 +58698,7 @@ GameObject:
   - component: {fileID: 4180298607489810}
   - component: {fileID: 33741558453498482}
   - component: {fileID: 23823344508885300}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58783,7 +58783,7 @@ GameObject:
   - component: {fileID: 33225420015273454}
   - component: {fileID: 23948663599758778}
   - component: {fileID: 65232951918730082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_tablecloth_small (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58887,7 +58887,7 @@ GameObject:
   - component: {fileID: 4380927192758550}
   - component: {fileID: 33234995230028586}
   - component: {fileID: 23394643619780914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_plate (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58971,7 +58971,7 @@ GameObject:
   - component: {fileID: 33411402599193326}
   - component: {fileID: 23832673703812048}
   - component: {fileID: 64093837897671984}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_interior_chandelier (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59085,7 +59085,7 @@ GameObject:
   - component: {fileID: 4440759859442952}
   - component: {fileID: 33136771581342424}
   - component: {fileID: 23118877488270500}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_elixir3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59169,7 +59169,7 @@ GameObject:
   - component: {fileID: 33854075243989054}
   - component: {fileID: 23487333488279372}
   - component: {fileID: 65610196400161572}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_door_room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59273,7 +59273,7 @@ GameObject:
   - component: {fileID: 4283242887503188}
   - component: {fileID: 33131661147368258}
   - component: {fileID: 23582775968775296}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bowler1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59356,7 +59356,7 @@ GameObject:
   - component: {fileID: 4184810796281796}
   - component: {fileID: 33785665064850356}
   - component: {fileID: 23312091010673804}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_candlestick3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59443,7 +59443,7 @@ GameObject:
   - component: {fileID: 33812079997515040}
   - component: {fileID: 23780923933822076}
   - component: {fileID: 64905279158674278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59549,7 +59549,7 @@ GameObject:
   - component: {fileID: 33502632823859188}
   - component: {fileID: 23384519609376502}
   - component: {fileID: 64680852772745608}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_basket_small (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59654,7 +59654,7 @@ GameObject:
   - component: {fileID: 4952644180200174}
   - component: {fileID: 33230377337362408}
   - component: {fileID: 23064217971388014}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_book3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59738,7 +59738,7 @@ GameObject:
   - component: {fileID: 33595018068830168}
   - component: {fileID: 23103553857481748}
   - component: {fileID: 65596254379465752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59842,7 +59842,7 @@ GameObject:
   - component: {fileID: 4960611618280058}
   - component: {fileID: 33259690925925024}
   - component: {fileID: 23200868008047744}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bottle2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59926,7 +59926,7 @@ GameObject:
   - component: {fileID: 33481597690424520}
   - component: {fileID: 23120176106077696}
   - component: {fileID: 65699358741547044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_bag_potato (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60031,7 +60031,7 @@ GameObject:
   - component: {fileID: 33770722188339602}
   - component: {fileID: 23018094923262416}
   - component: {fileID: 65249548792741550}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_bed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60136,7 +60136,7 @@ GameObject:
   - component: {fileID: 33248291312315204}
   - component: {fileID: 23422147718311828}
   - component: {fileID: 65294685069246170}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_bag_beet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60240,7 +60240,7 @@ GameObject:
   - component: {fileID: 4564463347669576}
   - component: {fileID: 33347245685696662}
   - component: {fileID: 23023533723808864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bottle5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60323,7 +60323,7 @@ GameObject:
   - component: {fileID: 4981878998403858}
   - component: {fileID: 33293131822356690}
   - component: {fileID: 23273960436124972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_book2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60406,7 +60406,7 @@ GameObject:
   - component: {fileID: 4690731617962602}
   - component: {fileID: 198046852135067994}
   - component: {fileID: 199980238937522794}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65249,7 +65249,7 @@ GameObject:
   - component: {fileID: 4772195286200472}
   - component: {fileID: 33630268906602922}
   - component: {fileID: 23617729741346278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bottle6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65331,7 +65331,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4995922118846342}
   - component: {fileID: 108956132287954376}
-  m_Layer: 0
+  - component: {fileID: 5583845601326779317}
+  m_Layer: 3
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65415,6 +65416,29 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &5583845601326779317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860366337282816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1865932923794402
 GameObject:
   m_ObjectHideFlags: 0
@@ -65426,7 +65450,7 @@ GameObject:
   - component: {fileID: 4897085262258014}
   - component: {fileID: 33073075346525686}
   - component: {fileID: 23312215167145882}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_book3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65509,7 +65533,7 @@ GameObject:
   - component: {fileID: 4939556248159588}
   - component: {fileID: 33964462685274304}
   - component: {fileID: 23626696945386884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_interior_curtain (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65593,7 +65617,7 @@ GameObject:
   - component: {fileID: 33582223399733318}
   - component: {fileID: 23602717864380392}
   - component: {fileID: 65974114522914718}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_door_room (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65697,7 +65721,7 @@ GameObject:
   - component: {fileID: 4702193304210668}
   - component: {fileID: 198608269875110790}
   - component: {fileID: 199012889850042978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70541,7 +70565,7 @@ GameObject:
   - component: {fileID: 33907953841683012}
   - component: {fileID: 23347489356404936}
   - component: {fileID: 64737518643263880}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70647,7 +70671,7 @@ GameObject:
   - component: {fileID: 33359024479964076}
   - component: {fileID: 23657120605528844}
   - component: {fileID: 65030390570360214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70751,7 +70775,7 @@ GameObject:
   - component: {fileID: 4070681716265204}
   - component: {fileID: 33832656766988264}
   - component: {fileID: 23425140084139378}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bottle5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70835,7 +70859,7 @@ GameObject:
   - component: {fileID: 33537302116127780}
   - component: {fileID: 23180029234750962}
   - component: {fileID: 65610342058707702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_door_room (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70940,7 +70964,7 @@ GameObject:
   - component: {fileID: 33465970830424844}
   - component: {fileID: 23047902189702814}
   - component: {fileID: 64688637140836774}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71046,7 +71070,7 @@ GameObject:
   - component: {fileID: 33434961154272042}
   - component: {fileID: 23671445073825762}
   - component: {fileID: 65938712094925396}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_cupboard1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71150,7 +71174,7 @@ GameObject:
   - component: {fileID: 4828018251666182}
   - component: {fileID: 33022810800441498}
   - component: {fileID: 23649360726072906}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_scroll (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71234,7 +71258,7 @@ GameObject:
   - component: {fileID: 33387402843458122}
   - component: {fileID: 23195659546401058}
   - component: {fileID: 64050498400083972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_basket (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71337,7 +71361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4601768536145810}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: room3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71376,7 +71400,7 @@ GameObject:
   - component: {fileID: 4295918755219246}
   - component: {fileID: 33761634053145632}
   - component: {fileID: 23436120901843496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_interior_lamp (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71460,7 +71484,7 @@ GameObject:
   - component: {fileID: 33357381417289156}
   - component: {fileID: 23149861998249024}
   - component: {fileID: 65318833969087050}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71564,7 +71588,7 @@ GameObject:
   - component: {fileID: 4691737709043280}
   - component: {fileID: 33670995484337358}
   - component: {fileID: 23321221250179244}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_elixir2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71645,7 +71669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4730272237704918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: room2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71684,7 +71708,7 @@ GameObject:
   - component: {fileID: 4325854261738824}
   - component: {fileID: 198592865933680260}
   - component: {fileID: 199714365709743370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76527,7 +76551,7 @@ GameObject:
   - component: {fileID: 4952197965359224}
   - component: {fileID: 198109021161131380}
   - component: {fileID: 199814602052041120}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FX_CandleFlame (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81370,7 +81394,7 @@ GameObject:
   - component: {fileID: 4300733424867390}
   - component: {fileID: 33592298865267058}
   - component: {fileID: 23165326556094216}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tavern_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81454,7 +81478,7 @@ GameObject:
   - component: {fileID: 4767560347394832}
   - component: {fileID: 33372528764205254}
   - component: {fileID: 23082885376377596}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_bottle1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81537,7 +81561,7 @@ GameObject:
   - component: {fileID: 4920983588138262}
   - component: {fileID: 33318019505087994}
   - component: {fileID: 23432805838356226}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_cup2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81620,7 +81644,7 @@ GameObject:
   - component: {fileID: 4509980693037402}
   - component: {fileID: 33458312366770594}
   - component: {fileID: 23499743152306722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_candlestick3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81707,7 +81731,7 @@ GameObject:
   - component: {fileID: 33891403181698692}
   - component: {fileID: 23356764171062014}
   - component: {fileID: 65667868622649422}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_bed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81812,7 +81836,7 @@ GameObject:
   - component: {fileID: 33397056462450002}
   - component: {fileID: 23036747710835308}
   - component: {fileID: 65538062448512238}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Furniture_chair3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81916,7 +81940,7 @@ GameObject:
   - component: {fileID: 4880895966417742}
   - component: {fileID: 33348766353608338}
   - component: {fileID: 23944361585254860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Food_cup1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82000,7 +82024,7 @@ GameObject:
   - component: {fileID: 33890398054253450}
   - component: {fileID: 23625193715429172}
   - component: {fileID: 64433000917937654}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: storage_barrel_drink (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82103,7 +82127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3591662031985281294}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Interior
   m_TagString: Untagged
   m_Icon: {fileID: 0}

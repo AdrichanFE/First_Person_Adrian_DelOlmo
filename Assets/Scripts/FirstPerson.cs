@@ -125,6 +125,7 @@ public class FirstPerson : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Movimiento();
             }
+            Destroy(other.gameObject);
         }
         
     }
@@ -180,6 +181,8 @@ public class FirstPerson : MonoBehaviour
         {
             Time.timeScale = 0f;
             menuGameOver.SetActive(true);
+            weaponHolder.SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
             Destroy(gameObject);
         }
     }
