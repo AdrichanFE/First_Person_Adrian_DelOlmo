@@ -127,7 +127,11 @@ public class FirstPerson : MonoBehaviour
             }
             Destroy(other.gameObject);
         }
-        
+        if (other.gameObject.CompareTag("ObjetoVacio"))
+        {
+            Destroy(other.gameObject);
+        }
+
     }
 
     void Movimiento()

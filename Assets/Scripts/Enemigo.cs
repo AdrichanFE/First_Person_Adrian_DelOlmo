@@ -68,7 +68,7 @@ public class Enemigo : MonoBehaviour
         CambiarEstadoHuesos(false);
         GameObject randomItem = items[Random.Range(0, items.Length)];
         Instantiate(randomItem, this.gameObject.transform.position, Quaternion.identity);
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 4);
     }
 
     private void CambiarEstadoHuesos(bool estado)

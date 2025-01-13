@@ -9,6 +9,7 @@ TagManager:
   - Pocion
   - DetectorSpawner
   - Loot
+  - ObjetoVacio
   layers:
   - Default
   - TransparentFX

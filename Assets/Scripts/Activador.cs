@@ -25,4 +25,12 @@ public class Activador : MonoBehaviour
             spawneador.SetActive(true);
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            spawneador.SetActive(false);
+        }
+    }
 }
