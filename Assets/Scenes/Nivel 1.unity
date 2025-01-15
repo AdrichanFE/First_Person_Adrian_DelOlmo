@@ -14283,7 +14283,17 @@ PrefabInstance:
     - target: {fileID: 717694155658871535, guid: ef2bbbe800b5ae84382521998ec7c438,
         type: 3}
       propertyPath: velocidadMovimiento
-      value: 7
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2941760668639319603, guid: ef2bbbe800b5ae84382521998ec7c438,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2941760668639319603, guid: ef2bbbe800b5ae84382521998ec7c438,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4438790887603366507, guid: ef2bbbe800b5ae84382521998ec7c438,
         type: 3}

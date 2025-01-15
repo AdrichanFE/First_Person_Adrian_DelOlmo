@@ -52,10 +52,10 @@ public class FirstPerson : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Time.timeScale = 0f;
-            weaponHolder.SetActive(false);
-            menuPausa.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
+            menuPausa.SetActive(true);
+            weaponHolder.SetActive(false);
+            Time.timeScale = 0f;  
             Movimiento();
             
         }
